@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Stranger Quiz | Seu Quiz sobre o Stranger Things</title>
+</head>
+<body>
+  <div class="intro py-3 bg-secondary text-center">
+    <div class="container">
+      <h2 class="text-light display-3 my-4">Stranger Quiz</h2>
+    </div>
+  </div>
+
+  <div class="quiz py-4 bg-dark">
+    <div class="container">
+      <h2 class="my-5 text-white">Vamos testar seus conhecimentos sobre a série Stranger Things</h2>
+
+      <form class="quiz-form text-light">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Quando a primeira temporada foi lançada?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="A" checked>
+              19 de Agosto de 2015
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion1" value="B">
+              15 de Julho de 2016
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. Na temporada dois, episódio um, a Max jogou um papel no lixo, e Lucas, Dustin,
+            Will e Mike foram ver o que era. O que estava escrito no papel?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="A" checked>
+              "Querem ir na sorveteria hoje a tarde?""
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion2" value="B">
+              "Parem de me espionar estranhos"
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. Quando os russos transmitiram o código sem querer, a Robin traduziu, 
+            sendo assim, qual era a tradução?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="A" checked>
+              O vermelho se encontra em azul. A esquerda tem um gato prateado que se alimenta de cores e uma viagem 
+              a China não parece nada mal.
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion3" value="B">
+              A semana é longa. O gato prateado se alimenta quando o azul encontra o amarelo no oeste. Uma viagem à
+              China soa bem se vc pisar levemente.
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. A personagem Max tem um irmão ou uma irmã?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="A" checked>
+              Uma irmã
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion4" value="B">
+              Um irmão
+            </label>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <p class="lead font-weight-normal">5. Billy era o que de Heather?</p>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="A" checked>
+              Namorado
+            </label>
+          </div>
+          <div class="form-check my-2 text-white-50">
+            <label class="form-check-label">
+              <input type="radio" name="inputQuestion5" value="B">
+              Colega de trabalho
+            </label>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <p class="result-score"></p>
+          <button class="btn bg-primary text-light">Enviar</button>        
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
