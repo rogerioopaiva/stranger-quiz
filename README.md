@@ -7,6 +7,9 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/><br>
   <img src="https://badges.netlify.com/api/stranger-quiz.svg?branch=master"/>
 </span>
-  
 </div>
+
+[Link da aplicação publicada no Netlify](https://stranger-quiz.netlify.app/  "Link da aplicação publicada no Netlify")
+
+![img_stranger](./img/quiz-stranger-things.png)
   
